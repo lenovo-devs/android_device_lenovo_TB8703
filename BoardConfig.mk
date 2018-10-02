@@ -53,5 +53,8 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 TARGET_LD_SHIM_LIBS := \
     /vendor/bin/mm-qcamera-daemon|libshims_camera.so
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # Inherit from the proprietary version
 -include vendor/lenovo/TB8703/BoardConfigVendor.mk
