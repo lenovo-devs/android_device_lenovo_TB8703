@@ -33,6 +33,9 @@ TARGET_TS_MAKEUP := true
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lenovo_tb8703
 TARGET_RECOVERY_DEVICE_MODULES := libinit_lenovo_tb8703
 
+# Display
+TARGET_SCREEN_DENSITY := 320
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_tb8703_defconfig
 
