@@ -44,5 +44,9 @@ PRODUCT_PACKAGES += \
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # Inherit from tb-common
 $(call inherit-product, device/lenovo/tb-common/tb.mk)
