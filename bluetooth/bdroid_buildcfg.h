@@ -1,10 +1,5 @@
 /*
- *
- *  Copyright (c) 2013, The Linux Foundation. All rights reserved.
- *  Not a Contribution, Apache license notifications and license are retained
- *  for attribution purposes only.
- *
- * Copyright (C) 2012 The Android Open Source Project
+ * Copyright (C) 2017-2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,8 +21,6 @@
 #define MAX_ACL_CONNECTIONS   16
 #define MAX_L2CAP_CHANNELS    20
 #define BLE_VND_INCLUDED   TRUE
-#define BLUETOOTH_QTI_SW               TRUE
-// skips conn update at conn completion
 #define BTM_SCO_ENHANCED_SYNC_ENABLED  FALSE
 
 /* Increasing SEPs to 12 from 6 to support SHO/MCast i.e. two streams per codec */
