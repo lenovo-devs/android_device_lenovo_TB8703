@@ -18,8 +18,5 @@ cc_library_static {
     name: "libinit_lenovo_tb8703",
     recovery_available: true,
     srcs: ["init_lenovo_tb8703.cpp"],
-    include_dirs: [
-        "system/core/base/include",
-        "system/core/init"
-    ]
+    whole_static_libs: ["libbase"],
 }
